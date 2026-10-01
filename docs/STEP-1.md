@@ -60,7 +60,7 @@ This is example/simulated data created by the team for learning purposes. Course
 - Data will be scaled up to 10,000+ records only in Step 2, after this small sample is validated.
 
 ## Step 1 completion evidence
-- Repository link: https://github.com/YOUR-USERNAME/Time-Table-Optimizer
+- Repository link: https://github.com/lakshyasisodiya/Time-Table-Optimizer
 - Commit history: (add link once pushed)
 - Validation output screenshot: results/step1/
 - Product V1 sketch: docs/product-v1-sketch.png
