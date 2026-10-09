@@ -1,0 +1,48 @@
+{
+  "project": "Time-Table Optimizer",
+  "step": 3,
+  "method": "Deterministic first-fit baseline scheduler",
+  "is_trained_model": false,
+  "seed_required": false,
+  "input_file": "data/processed/cleaned_scenarios.csv",
+  "scenario_count": 10000,
+  "input_course_record_count": 50000,
+  "slots": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "room_inventory": [
+    {
+      "room_id": "R1",
+      "room_type": "classroom",
+      "room_capacity": 60
+    },
+    {
+      "room_id": "R2",
+      "room_type": "classroom",
+      "room_capacity": 60
+    },
+    {
+      "room_id": "R3",
+      "room_type": "lab",
+      "room_capacity": 30
+    }
+  ],
+  "hard_constraints": [
+    "a room cannot host two sessions in an overlapping slot",
+    "a faculty member cannot teach overlapping sessions",
+    "a cohort cannot attend overlapping sessions",
+    "a session duration must fit within S1..S10",
+    "a room must satisfy required_room_type and capacity"
+  ],
+  "soft_preference": "slot_id from the scenario row is treated as a preferred session start; each assigned session starting elsewhere adds one penalty",
+  "limitation": "The room inventory and single ten-slot weekly timeline are simplified assumptions inherited from the Step 1 teaching fixture."
+}

@@ -1,0 +1,4 @@
+case_type,scenarios,requested_sessions,scheduled_sessions,unplaced_sessions,feasible_scenarios,mean_unplaced_sessions,mean_coverage_pct,mean_room_slot_utilization_pct,preference_penalties,hard_violations,feasibility_rate_pct
+normal,7000,70118,58451,11667,2583,1.67,84.78,41.0,52640,0,36.9
+boundary,2000,34991,20494,14497,10,7.25,58.76,49.3,18462,0,0.5
+stress,1000,20000,5900,14100,0,14.1,29.5,39.33,5262,0,0.0
