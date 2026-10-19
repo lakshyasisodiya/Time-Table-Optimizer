@@ -1,0 +1,25 @@
+case_type,measure,first_fit_baseline,genetic_algorithm,ga_minus_baseline,interpretation_direction
+overall,mean_coverage_pct,74.05,77.17,3.12,higher is better
+overall,mean_unplaced_sessions_per_scenario,4.03,3.57,-0.46,lower is better
+overall,preference_penalties,76364.0,55375.0,-20989.0,lower is better
+overall,hard_violations,0.0,0.0,0.0,must remain zero
+overall,feasibility_rate_pct,25.93,26.44,0.51,higher is better
+overall,room_slot_utilization_pct_mean,42.5,43.19,0.69,interpret with coverage and unplaced sessions
+normal,mean_coverage_pct,84.78,87.0,2.22,higher is better
+normal,mean_unplaced_sessions_per_scenario,1.67,1.42,-0.25,lower is better
+normal,preference_penalties,52640.0,35305.0,-17335.0,lower is better
+normal,hard_violations,0.0,0.0,0.0,must remain zero
+normal,feasibility_rate_pct,36.9,37.63,0.73,higher is better
+normal,room_slot_utilization_pct_mean,41.0,41.19,0.19,interpret with coverage and unplaced sessions
+boundary,mean_coverage_pct,58.76,65.98,7.22,higher is better
+boundary,mean_unplaced_sessions_per_scenario,7.25,5.98,-1.27,lower is better
+boundary,preference_penalties,18462.0,16147.0,-2315.0,lower is better
+boundary,hard_violations,0.0,0.0,0.0,must remain zero
+boundary,feasibility_rate_pct,0.5,0.5,0.0,higher is better
+boundary,room_slot_utilization_pct_mean,49.3,51.28,1.98,interpret with coverage and unplaced sessions
+stress,mean_coverage_pct,29.5,30.71,1.21,higher is better
+stress,mean_unplaced_sessions_per_scenario,14.1,13.86,-0.24,lower is better
+stress,preference_penalties,5262.0,3923.0,-1339.0,lower is better
+stress,hard_violations,0.0,0.0,0.0,must remain zero
+stress,feasibility_rate_pct,0.0,0.0,0.0,higher is better
+stress,room_slot_utilization_pct_mean,39.33,40.94,1.61,interpret with coverage and unplaced sessions

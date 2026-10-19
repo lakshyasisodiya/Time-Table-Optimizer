@@ -1,0 +1,9 @@
+case_type,method,scenarios,requested_sessions,scheduled_sessions,unplaced_sessions,mean_coverage_pct,mean_unplaced_sessions_per_scenario,preference_penalties,hard_violations,feasible_scenarios,feasibility_rate_pct,room_slot_utilization_pct_mean
+overall,First-fit baseline,10000,125109,84845,40264,74.05,4.03,76364,0,2593,25.93,42.5
+overall,Genetic Algorithm,10000,125109,89381,35728,77.17,3.57,55375,0,2644,26.44,43.19
+normal,First-fit baseline,7000,70118,58451,11667,84.78,1.67,52640,0,2583,36.9,41.0
+normal,Genetic Algorithm,7000,70118,60206,9912,87.0,1.42,35305,0,2634,37.63,41.19
+boundary,First-fit baseline,2000,34991,20494,14497,58.76,7.25,18462,0,10,0.5,49.3
+boundary,Genetic Algorithm,2000,34991,23033,11958,65.98,5.98,16147,0,10,0.5,51.28
+stress,First-fit baseline,1000,20000,5900,14100,29.5,14.1,5262,0,0,0.0,39.33
+stress,Genetic Algorithm,1000,20000,6142,13858,30.71,13.86,3923,0,0,0.0,40.94
