@@ -69,7 +69,3 @@ The data is simulated from simplified assumptions: three example rooms, ten avai
 - Chart: `results/step4_baseline_vs_ga.png`
 - Rerun from the repository root: `python src/compare_baseline.py`
 - Automated tests: `python -m unittest discover -s tests -v`
-
-## Team contributions
-
-Before submission, replace this paragraph with each real member's name, specific implementation or analysis contribution, and corresponding evidence. Do not claim work that the member did not perform.
