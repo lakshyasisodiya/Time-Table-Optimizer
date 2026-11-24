@@ -1,0 +1,9 @@
+scenario_id,case_type,course_id,session_number,faculty_id,cohort_id,required_room_type,duration_slots,preferred_slot,room_id,room_type,start_slot,occupied_slots,preference_penalty,status,unplaced_reason
+USER-INPUT-001,user_input,C01,1,F1,G1,classroom,1,S2,R1,classroom,S2,S2,0,scheduled,
+USER-INPUT-001,user_input,C01,2,F1,G1,classroom,1,S2,R1,classroom,S1,S1,1,scheduled,
+USER-INPUT-001,user_input,C02,1,F2,G1,classroom,1,S3,R1,classroom,S3,S3,0,scheduled,
+USER-INPUT-001,user_input,C02,2,F2,G1,classroom,1,S3,R1,classroom,S4,S4,1,scheduled,
+USER-INPUT-001,user_input,C03,1,F3,G2,lab,2,S5,R3,lab,S5,S5|S6,0,scheduled,
+USER-INPUT-001,user_input,C03,2,F3,G2,lab,2,S5,R3,lab,S3,S3|S4,1,scheduled,
+USER-INPUT-001,user_input,C04,1,F1,G2,classroom,1,S7,R1,classroom,S7,S7,0,scheduled,
+USER-INPUT-001,user_input,C05,1,F3,G1,lab,1,S8,R3,lab,S8,S8,0,scheduled,
